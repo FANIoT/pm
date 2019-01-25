@@ -7,7 +7,7 @@
 #
 # [] Created By : Parham Alvani <parham.alvani@gmail.com>
 # =======================================
-# Creates basis for pm component of I1820 platform.
+# Creates basis for pm component of FANIoT platform.
 # please run this script once and for all.
 docker network create -d bridge --subnet 192.168.72.0/24 --gateway 192.168.72.1 i1820
 docker pull i1820/elrunner

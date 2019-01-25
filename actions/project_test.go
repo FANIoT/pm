@@ -13,7 +13,7 @@ package actions
 import (
 	"context"
 
-	"github.com/I1820/pm/models"
+	"github.com/FANIoT/pm/models"
 	"github.com/mongodb/mongo-go-driver/bson"
 )
 

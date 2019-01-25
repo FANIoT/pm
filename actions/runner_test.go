@@ -17,7 +17,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/I1820/pm/models"
+	"github.com/FANIoT/pm/models"
 )
 
 func (as *ActionSuite) Test_RunnersHandler() {

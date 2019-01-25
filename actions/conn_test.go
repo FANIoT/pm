@@ -14,9 +14,9 @@
 package actions
 
 import (
-	"github.com/I1820/pm/models"
-	"github.com/I1820/types"
-	"github.com/I1820/types/connectivity"
+	"github.com/FANIoT/pm/models"
+	"github.com/FANIoT/types"
+	"github.com/FANIoT/types/connectivity"
 )
 
 const cName = "ttn"

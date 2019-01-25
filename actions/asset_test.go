@@ -14,8 +14,8 @@
 package actions
 
 import (
-	"github.com/I1820/pm/models"
-	"github.com/I1820/types"
+	"github.com/FANIoT/pm/models"
+	"github.com/FANIoT/types"
 )
 
 const aName = "101"

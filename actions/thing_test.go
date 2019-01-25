@@ -11,8 +11,8 @@
 package actions
 
 import (
-	"github.com/I1820/pm/models"
-	"github.com/I1820/types"
+	"github.com/FANIoT/pm/models"
+	"github.com/FANIoT/types"
 )
 
 const tName = "0000000000000073"
@@ -32,7 +32,7 @@ func (as *ActionSuite) Test_ThingsResource_Create() {
 	// build thing creation request
 	var rq thingReq
 	rq.Name = tName
-	rq.Location.Latitude = 35.807657 // I1820 location in velenjak
+	rq.Location.Latitude = 35.807657 // FANIoT location in velenjak
 	rq.Location.Longitude = 51.398408
 	rest := as.JSON("/api/projects/%s/things", pID).Post(rq)
 	as.Equalf(200, rest.Code, "Error: %s", rest.Body.String())

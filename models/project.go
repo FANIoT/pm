@@ -13,10 +13,10 @@ package models
 import (
 	"context"
 
-	"github.com/I1820/pm/runner"
+	"github.com/FANIoT/pm/runner"
 )
 
-// Project represents structure of I1820 platform projects
+// Project represents structure of FANIoT platform projects
 // The project is a virtual entity that collects things together
 // under one name and eases their management,
 // like an Agricultural project that manages your farm and its smart things.

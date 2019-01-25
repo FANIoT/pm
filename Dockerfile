@@ -2,8 +2,8 @@
 # https://docs.docker.com/engine/userguide/eng-image/multistage-build/
 FROM gobuffalo/buffalo:v0.12.4 as builder
 
-RUN mkdir -p "$GOPATH/src/github.com/I1820/pm"
-WORKDIR $GOPATH/src/github.com/I1820/pm
+RUN mkdir -p "$GOPATH/src/github.com/FANIoT/pm"
+WORKDIR $GOPATH/src/github.com/FANIoT/pm
 
 COPY . .
 RUN dep ensure

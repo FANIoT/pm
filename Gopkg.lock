@@ -46,7 +46,7 @@
 [[projects]]
   branch = "master"
   digest = "1:ab906e21530826acd2c09d337e26d254ebba8b692ac67d8dc9da2665b01896ca"
-  name = "github.com/I1820/types"
+  name = "github.com/FANIoT/types"
   packages = [
     ".",
     "connectivity",
@@ -1065,8 +1065,8 @@
     "docker.io/go-docker",
     "docker.io/go-docker/api/types",
     "docker.io/go-docker/api/types/container",
-    "github.com/I1820/types",
-    "github.com/I1820/types/connectivity",
+    "github.com/FANIoT/types",
+    "github.com/FANIoT/types/connectivity",
     "github.com/docker/go-connections/nat",
     "github.com/gobuffalo/buffalo",
     "github.com/gobuffalo/buffalo/render",

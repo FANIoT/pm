@@ -14,8 +14,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/I1820/pm/models"
-	"github.com/I1820/types"
+	"github.com/FANIoT/pm/models"
+	"github.com/FANIoT/types"
 	"github.com/gobuffalo/buffalo"
 	"github.com/mongodb/mongo-go-driver/bson"
 	"github.com/mongodb/mongo-go-driver/bson/objectid"
@@ -96,7 +96,7 @@ func (v ThingsResource) Create(c buffalo.Context) error {
 		return c.Error(http.StatusBadRequest, err)
 	}
 
-	// read more about thing model in I1820 platform website
+	// read more about thing model in FANIoT platform website
 	model := "generic"
 	if rq.Model != "" {
 		model = rq.Model
